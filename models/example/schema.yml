@@ -1,0 +1,23 @@
+
+version: 2
+
+models:
+
+  - name: milestone1_1
+    description: "A model to calculate monthly average NAV and prices for each scheme"
+    columns:
+      - name: nav_month
+        tests:
+          - not_null
+      - name: code
+        tests:
+          - not_null
+      - name: nav_avg
+        tests:
+          - not_null
+      - name: repurchase_avg
+        tests:
+          - not_null
+      - name: sale_avg
+        tests:
+          - not_null
