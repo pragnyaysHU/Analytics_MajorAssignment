@@ -68,3 +68,16 @@ models:
       - name: code
         tests:
           - not_null
+
+  - name: milestone2_4ytd
+    description: "A model to find ytd results for all funds in liquid fund category"
+    columns:
+      - name: ytd
+        tests:
+          - not_null
+      - name: code
+        tests:
+          - not_null
+      - name: category_id
+        tests:
+          - not_null
