@@ -21,3 +21,30 @@ models:
       - name: sale_avg
         tests:
           - not_null
+
+
+  - name: milestone1_2
+    description: "A model to find out each schemes Max and Min NAV value and Date it occurred"
+    columns:
+      - name: nav_date
+        tests:
+          - not_null
+      - name: code
+        tests:
+          - not_null
+      - name: maximum_nav
+        tests:
+          - not_null
+      - name: minimum_nav
+        tests:
+          - not_null
+
+  - name: milestone2_1ytd
+    description: "A model to find Mutual fund performance - including YTD returns"
+    columns:
+      - name: ytd
+        tests:
+          - not_null
+      - name: code
+        tests:
+          - not_null
