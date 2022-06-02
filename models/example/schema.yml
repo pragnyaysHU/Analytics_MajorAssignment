@@ -48,3 +48,23 @@ models:
       - name: code
         tests:
           - not_null
+
+  - name: milestone2_1mtd
+    description: "A model to find Mutual fund performance - including MTD returns"
+    columns:
+      - name: mtd
+        tests:
+          - not_null
+      - name: code
+        tests:
+          - not_null
+
+  - name: milestone2_1oneyear
+    description: "A model to find Mutual fund performance - including One Year returns"
+    columns:
+      - name: oneyear_returns
+        tests:
+          - not_null
+      - name: code
+        tests:
+          - not_null
